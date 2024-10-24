@@ -1,0 +1,74 @@
+
+
+.card{
+    width: 16rem;
+}
+
+.sezione{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+i{
+    padding-right: 1px;
+}
+
+a {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: inherit; /* Utilizza il colore ereditato dal contenitore */
+}
+
+.logo {
+    max-height: 100px; /* Altezza massima del logo */
+}
+
+@media (min-width: 992px) {
+    .logo {
+        max-height: 100px; /* Altezza massima del logo su schermi grandi */
+    }
+}
+
+.carousel-item img {
+    height: 600px; /* Imposta l'altezza desiderata */
+    object-fit: cover; /* Copre l'intera area della slide */
+  }
+  .header {
+    height: 600px; /* Stessa altezza delle immagini */
+  }
+
+.btn-search:focus {
+    border-color: black !important; /* Colore nero */
+    box-shadow: none !important; /* Rimuove l'ombra */
+}
+
+/* Stile per il modal con sfondo scuro senza trasparenza */
+.modal-content {
+    background-color: #3e3e3f;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Stile per il testo "Accedi" nel modal header */
+.modal-content .modal-title {
+    color: #fff;
+}
+
+/* Stile per il placeholder in tutti i campi input nei modali */
+.modal-content .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Stile per il testo all'interno del bottone */
+.modal-content .btn-outline-dark {
+    color: #fff;
+}
+
+/* Stile per il bottone di chiusura del modal */
+.modal-content .btn-close {
+    color: #fff;
+}
+
+/* Hover del bottone di chiusura del modal */
+.modal-content .btn-close:hover {
+    color: #fff;
+}
